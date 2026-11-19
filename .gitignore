@@ -1,0 +1,8 @@
+data/cache/
+node_modules/
+.out/
+coverage/
+*.log
+*.tmp
+.DS_Store
+.env

@@ -1,0 +1,112 @@
+{
+  "dataVersion": "2026.11",
+  "source": {
+    "name": "ECDICT",
+    "url": "https://github.com/skywind3000/ECDICT",
+    "license": "MIT",
+    "file": "ecdict.csv",
+    "expectedBytes": 66009548
+  },
+  "verification": {
+    "primary": {
+      "file": "data/verified/primary.txt",
+      "source": "人教PEP + Join In 小学词头 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    },
+    "ket": {
+      "file": "data/verified/ket.txt",
+      "source": "Cambridge KET/A2 Key + 小学并集 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    },
+    "pet": {
+      "file": "data/verified/pet.txt",
+      "source": "Cambridge PET/B1 Preliminary + KET 并集 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    },
+    "gaokao": {
+      "file": "data/verified/gaokao.txt",
+      "source": "高考英语大纲词表 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    },
+    "cet4": {
+      "file": "data/verified/cet4.txt",
+      "source": "四级大纲词表 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    },
+    "cet6": {
+      "file": "data/verified/cet6.txt",
+      "source": "四级+六级大纲词表 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    },
+    "kaoyan": {
+      "file": "data/verified/kaoyan.txt",
+      "source": "考研大纲词表 + ECDICT",
+      "license": "词头来源与再分发条件见 data/verified/README.md（公开发布前复核）"
+    }
+  },
+  "packs": [
+    {
+      "id": "primary",
+      "tag": "xx",
+      "name": "小学",
+      "nameEn": "Primary",
+      "category": "青少年英语",
+      "coreSize": 250,
+      "minWords": 1100
+    },
+    {
+      "id": "ket",
+      "tag": "ket",
+      "name": "KET",
+      "nameEn": "A2 Key",
+      "category": "剑桥英语",
+      "coreSize": 500,
+      "minWords": 1600
+    },
+    {
+      "id": "pet",
+      "tag": "pet",
+      "name": "PET",
+      "nameEn": "B1 Preliminary",
+      "category": "剑桥英语",
+      "coreSize": 650,
+      "minWords": 2100
+    },
+    {
+      "id": "gaokao",
+      "tag": "gk",
+      "name": "高考",
+      "nameEn": "Gaokao",
+      "category": "国内考试",
+      "coreSize": 1200,
+      "minWords": 3200
+    },
+    {
+      "id": "cet4",
+      "tag": "cet4",
+      "name": "四级",
+      "nameEn": "CET-4",
+      "category": "国内考试",
+      "coreSize": 1162,
+      "minWords": 4300
+    },
+    {
+      "id": "cet6",
+      "tag": "cet6",
+      "name": "六级",
+      "nameEn": "CET-6",
+      "category": "国内考试",
+      "coreSize": 1500,
+      "minWords": 5500
+    },
+    {
+      "id": "kaoyan",
+      "tag": "ky",
+      "name": "考研",
+      "nameEn": "Postgraduate Entrance Exam",
+      "category": "国内考试",
+      "coreSize": 1500,
+      "minWords": 5200
+    }
+  ]
+}

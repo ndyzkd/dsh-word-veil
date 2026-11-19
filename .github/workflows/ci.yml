@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build client
+        run: node tools/build-client.mjs
+      - name: Static checks
+        run: node tools/check.mjs
+      - name: Privacy guard
+        run: node tools/privacy-check.mjs
+      - name: Tests
+        run: npm test
+      - name: Generated client is committed
+        run: git diff --exit-code -- lib/client.js
+      - name: Package contents
+        run: npm pack --dry-run

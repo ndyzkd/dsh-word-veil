@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Word Veil",
+    "description": "Display exam words in English with a hover card for Chinese, POS and phonetics; includes a wordbook, spaced review and Primary/KET/PET/Gaokao/CET/postgraduate packs.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "词纱",
+    "description": "把对话里的考试词显示成英文，悬停看中文、词性和音标；带词本、SRS 复习和小学/KET/PET/高考/四六级/考研词包。",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-11-19",
+  "counts": {
+    "cet4": 4535,
+    "cet6": 5684,
+    "kaoyan": 5385,
+    "primary": 1230,
+    "ket": 1698,
+    "pet": 2223,
+    "gaokao": 3404
+  },
+  "sha256": {
+    "cet4": "df348afd90b0d076ac897390adc61d891e85e10df4b294f2a641971607969ea8",
+    "cet6": "4555f2370cd21bbae3cc94d465c67700bf8ff68eeeb88ab4a731c9ac73c69e99",
+    "kaoyan": "f9625adc73c9677d02d100605600c7505bf43f42bc40894394d51f070a9633ec",
+    "primary": "d3c3de3bb82993df9ec138c4c87b62aa4ef8cd31831859ccfd9388d483a19e17",
+    "ket": "e6a7b47aa345a291f4a5004e0047f2ba7906499873d01d787e6adf24e730976d",
+    "pet": "1402ef0b51740aabaf940f0108d8d8295e362bbb95c27ebf7a3ff64d9e64a6ee",
+    "gaokao": "974f29c3ed2252adff79c3bb1dd490f1a399a6c5dd54842653b4b28971adffe6"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "builtAt": "2026.11",
+  "source": {
+    "name": "ECDICT",
+    "url": "https://github.com/skywind3000/ECDICT",
+    "license": "MIT",
+    "file": "ecdict.csv",
+    "bytes": 66009548,
+    "sha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc"
+  },
+  "scannedRows": 770611,
+  "skippedRows": 0,
+  "verification": {
+    "primary": {
+      "listWords": 1230,
+      "missing": 0,
+      "missingSample": []
+    },
+    "ket": {
+      "listWords": 1698,
+      "missing": 0,
+      "missingSample": []
+    },
+    "pet": {
+      "listWords": 2223,
+      "missing": 0,
+      "missingSample": []
+    },
+    "gaokao": {
+      "listWords": 3404,
+      "missing": 0,
+      "missingSample": []
+    },
+    "cet4": {
+      "listWords": 4535,
+      "missing": 0,
+      "missingSample": []
+    },
+    "cet6": {
+      "listWords": 5684,
+      "missing": 0,
+      "missingSample": []
+    },
+    "kaoyan": {
+      "listWords": 5385,
+      "missing": 0,
+      "missingSample": []
+    }
+  },
+  "packs": [
+    {
+      "id": "primary",
+      "words": 1230,
+      "core": 250,
+      "withPhonetic": 1208,
+      "withPos": 1194
+    },
+    {
+      "id": "ket",
+      "words": 1698,
+      "core": 500,
+      "withPhonetic": 1664,
+      "withPos": 1652
+    },
+    {
+      "id": "pet",
+      "words": 2223,
+      "core": 650,
+      "withPhonetic": 2161,
+      "withPos": 2169
+    },
+    {
+      "id": "gaokao",
+      "words": 3404,
+      "core": 1200,
+      "withPhonetic": 3390,
+      "withPos": 3385
+    },
+    {
+      "id": "cet4",
+      "words": 4535,
+      "core": 1162,
+      "withPhonetic": 4528,
+      "withPos": 4526
+    },
+    {
+      "id": "cet6",
+      "words": 5684,
+      "core": 1500,
+      "withPhonetic": 5675,
+      "withPos": 5675
+    },
+    {
+      "id": "kaoyan",
+      "words": 5385,
+      "core": 1500,
+      "withPhonetic": 5376,
+      "withPos": 5373
+    }
+  ],
+  "notes": [
+    "Membership comes from sourced syllabus headwords; ECDICT supplies phonetics, POS and Chinese meanings.",
+    "Core starts from the previous core seed and fills by ECDICT frequency; it is not an official syllabus order.",
+    "No example sentences are bundled; context comes from where the learner met the word."
+  ],
+  "verifiedLists": {
+    "primary": {
+      "file": "data/verified/primary.txt",
+      "words": 1230,
+      "phrases": 0,
+      "skipped": 0
+    },
+    "ket": {
+      "file": "data/verified/ket.txt",
+      "words": 1698,
+      "phrases": 0,
+      "skipped": 0
+    },
+    "pet": {
+      "file": "data/verified/pet.txt",
+      "words": 2223,
+      "phrases": 0,
+      "skipped": 0
+    },
+    "gaokao": {
+      "file": "data/verified/gaokao.txt",
+      "words": 3404,
+      "phrases": 0,
+      "skipped": 0
+    },
+    "cet4": {
+      "file": "data/verified/cet4.txt",
+      "words": 4535,
+      "phrases": 0,
+      "skipped": 0
+    },
+    "cet6": {
+      "file": "data/verified/cet6.txt",
+      "words": 5684,
+      "phrases": 0,
+      "skipped": 0
+    },
+    "kaoyan": {
+      "file": "data/verified/kaoyan.txt",
+      "words": 5385,
+      "phrases": 0,
+      "skipped": 0
+    }
+  }
+}

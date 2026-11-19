@@ -1,0 +1,75 @@
+{
+  "name": "dsh-word-veil",
+  "version": "1.0.0",
+  "description": "词纱 (Word Veil) — 在 DSH 对话里把考试词替换成英文的显示层词纱，带词本、SRS 复习与多级词包。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./packs/*": "./packs/*"
+  },
+  "files": [
+    "lib",
+    "src",
+    "packs",
+    "locale",
+    "docs",
+    "screenshots",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "fetch:ecdict": "node tools/fetch-wordbank.mjs",
+    "build:packs": "node tools/build-packs.mjs",
+    "build": "node tools/build-client.mjs",
+    "check": "node tools/check.mjs",
+    "test": "node --test test/*.test.mjs",
+    "privacy:check": "node tools/privacy-check.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "word-veil",
+    "vocabulary",
+    "spaced-repetition",
+    "primary",
+    "ket",
+    "pet",
+    "gaokao",
+    "cet4",
+    "cet6",
+    "kaoyan",
+    "词纱"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.2-rc.3": "compatible"
+      }
+    }
+  }
+}

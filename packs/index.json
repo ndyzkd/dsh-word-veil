@@ -1,0 +1,93 @@
+[
+  {
+    "id": "primary",
+    "name": "小学",
+    "nameEn": "Primary",
+    "category": "青少年英语",
+    "version": "2026.11",
+    "wordCount": 1230,
+    "coreCount": 250,
+    "source": "人教PEP + Join In 小学词头 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "primary.json"
+  },
+  {
+    "id": "ket",
+    "name": "KET",
+    "nameEn": "A2 Key",
+    "category": "剑桥英语",
+    "version": "2026.11",
+    "wordCount": 1698,
+    "coreCount": 500,
+    "source": "Cambridge KET/A2 Key + 小学并集 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "ket.json"
+  },
+  {
+    "id": "pet",
+    "name": "PET",
+    "nameEn": "B1 Preliminary",
+    "category": "剑桥英语",
+    "version": "2026.11",
+    "wordCount": 2223,
+    "coreCount": 650,
+    "source": "Cambridge PET/B1 Preliminary + KET 并集 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "pet.json"
+  },
+  {
+    "id": "gaokao",
+    "name": "高考",
+    "nameEn": "Gaokao",
+    "category": "国内考试",
+    "version": "2026.11",
+    "wordCount": 3404,
+    "coreCount": 1200,
+    "source": "高考英语大纲词表 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "gaokao.json"
+  },
+  {
+    "id": "cet4",
+    "name": "四级",
+    "nameEn": "CET-4",
+    "category": "国内考试",
+    "version": "2026.11",
+    "wordCount": 4535,
+    "coreCount": 1162,
+    "source": "四级大纲词表 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "cet4.json"
+  },
+  {
+    "id": "cet6",
+    "name": "六级",
+    "nameEn": "CET-6",
+    "category": "国内考试",
+    "version": "2026.11",
+    "wordCount": 5684,
+    "coreCount": 1500,
+    "source": "四级+六级大纲词表 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "cet6.json"
+  },
+  {
+    "id": "kaoyan",
+    "name": "考研",
+    "nameEn": "Postgraduate Entrance Exam",
+    "category": "国内考试",
+    "version": "2026.11",
+    "wordCount": 5385,
+    "coreCount": 1500,
+    "source": "考研大纲词表 + ECDICT",
+    "license": "MIT (ECDICT metadata); 词头来源与再分发条件见 data/verified/README.md（公开发布前复核）",
+    "updatedAt": "2026.11",
+    "file": "kaoyan.json"
+  }
+]
